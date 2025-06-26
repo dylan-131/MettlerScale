@@ -3,6 +3,9 @@ import logging
 import time
 import re  # Added for better number extraction
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 host = os.getenv("SCALE_HOST")
 port = int(os.getenv("SCALE_PORT"))
