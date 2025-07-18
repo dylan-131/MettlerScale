@@ -61,6 +61,7 @@ def push_to_arkite(weight):
         weight (float): Weight value in grams from scale
     """
     url = f"{ARKITE_BASE_URL}/api/v1/projects/{ARKITE_PROJECT_ID}/variables/{ARKITE_VARIABLE_ID}?apiKey={ARKITE_API_KEY}"
+    
     headers = {
         "Content-Type": "application/json",
         "Accept": "application/json"
