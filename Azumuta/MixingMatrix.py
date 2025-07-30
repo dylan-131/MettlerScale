@@ -18,7 +18,7 @@ def update_competency(workinstruction_id, user_id):
     payload = {
         "workinstructionId": workinstruction_id,
         "userId": user_id,
-        "trainedWorkinstructionVersion": 6,
+        "trainedWorkinstructionVersion": 10,
         "level": 5,
         "notes": "Testing API"
     }
